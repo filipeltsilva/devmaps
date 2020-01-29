@@ -20,6 +20,6 @@ module.exports = {
       }
     });
 
-    return response.json();
+    return response.json({ devs });
   }
 }
